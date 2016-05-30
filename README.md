@@ -1,6 +1,3 @@
-# Library-DomPdf-to-CodeIgniter
-library DomPdf to CodeIgniter
-
 Generate pdf in CodeIgnaiter using library DomPdf
 
 Installation
@@ -48,7 +45,8 @@ Help
 
 ====
 
-For more information on how to use domPDF then please visit: [http://code.google.com/p/dompdf/wiki/Usage](http://code.google.com/p/dompdf/wiki/Usage)
+For more information on how to use domPDF then please visit: [http://pxd.me/dompdf/www/index.php](http://pxd.me/dompdf/www/index.php)
+
 
 
 License
@@ -66,4 +64,4 @@ Credits
 
 * CodeIngiter Conversion - [Chris Harvey](http://www.chrisnharvey.com)
 
-* domPDF - [The domPDF Team](http://code.google.com/p/dompdf/)
+* domPDF - [The domPDF Team](http://pxd.me/dompdf/www/index.php)
