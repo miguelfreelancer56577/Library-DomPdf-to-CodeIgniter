@@ -4,9 +4,10 @@ Installation
 
 ============
 
-1.- copy the Pdf.php library into your libraries directory.
-2.- Download domPDF from https://github.com/dompdf/dompdf
-3.- copy the dompdf directory into your libraries directory alongside the pdf.php
+1. copy the Pdf.php library into your libraries directory.
+2. Download domPDF from https://github.com/dompdf/dompdf
+3. copy the dompdf directory into your libraries directory alongside the pdf.php
+4. Enabled DOMPDF_ENABLE_PHP and DOMPDF_ENABLE_REMOTE, into dompdf_config.custom.inc.php
 
 Usage
 
