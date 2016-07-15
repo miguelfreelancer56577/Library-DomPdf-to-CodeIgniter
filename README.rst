@@ -8,30 +8,41 @@ Implement library to create a document pdf from any content of html on CodeIgnit
 Usage
 *********
 
--  `set other dir, or set as default dir to save your pdf`
+-  `set other dir, or set as default dir to save your pdf`_
+
 $this->html2pdf->setPath('./otro/');
--  `set other file name, or set as default, the file name without extension`
+
+-  `set other file name, or set as default, the file name without extension`_
+
 $this->html2pdf->setFilename('myPdf');
--  `check out, DomPdf docuemntation for more details `
--  `by default the paper is portrait`
+
+-  `check out, DomPdf docuemntation for more details `_
+
+-  `by default the paper is portrait`_
+
 $this->html2pdf->setOrientation('landscape');
--  `by default the paper is A4`
+
+-  `by default the paper is A4`_
+
 $this->html2pdf->setPaper_size('legal');
--  `content to print`
+
+-  `content to print`_
+
 $data["title"] = "Your Title.......";
--  `establish content `
+
+-  `establish content `_
+
 $this->Pdf->setHtml($this->load->view('test', $data, true));
--  `save document`
+
+-  `save document`_
+
 $this->Pdf->createPdf('save');
--  `show pdf`
+
+-  `show pdf`_
+
 $this->Pdf->showPdf();
 
-*********
 Help
-*********
-
-Help
-
 ====
 
 For more information on how to use domPDF then please visit: [http://pxd.me/dompdf/www/index.php](http://pxd.me/dompdf/www/index.php)
